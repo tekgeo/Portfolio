@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Juanita Sánchez - Geoinformatics Engineer</title>
+  <meta name="description" content="Portfolio of Juanita Sánchez - MSc Geoinformatics Engineering student at Politecnico di Milano. GIS, Earth Observation, spatial data analysis, and software engineering.">
+  <meta name="keywords" content="Geoinformatics, GIS, Earth Observation, Remote Sensing, Politecnico di Milano, PostGIS, Python, QGIS, ArcGIS">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet">
+
+  <style>
+    .lang-toggle{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:var(--heading-color,#2D2016);border-radius:999px;padding:.3rem .7rem;font-size:.78rem;font-weight:600;cursor:pointer;transition:all .25s;margin-left:1rem;font-family:var(--default-font,sans-serif);letter-spacing:.03em;}
+    .lang-toggle:hover{background:var(--accent-color,#9E7C5A);color:#fff;border-color:var(--accent-color,#9E7C5A);}
+    .page-hero .lang-toggle{color:#fff;}
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <i class="bi bi-geo-alt-fill" style="font-size:1.4rem;color:var(--accent-color);margin-right:.5rem;"></i>
+        <span class="sitename">Juanita Sánchez</span>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active" data-en="Home" data-es="Inicio">Home</a></li>
+          <li><a href="#about" data-en="About" data-es="Sobre mí">About</a></li>
+          <li><a href="#education" data-en="Education" data-es="Educación">Education</a></li>
+          <li><a href="#experience" data-en="Experience" data-es="Experiencia">Experience</a></li>
+          <li><a href="#projects" data-en="Projects" data-es="Proyectos">Projects</a></li>
+          <li><a href="#skills" data-en="Skills" data-es="Habilidades">Skills</a></li>
+          <li><a href="#contact" data-en="Contact" data-es="Contacto">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <button class="lang-toggle" id="langToggle" title="Switch language">ES</button>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="hero" class="page-hero">
+      <div class="container position-relative">
+        <div class="row justify-content-center text-center" data-aos="fade-up">
+          <div class="col-xl-8">
+            <div class="eyebrow">Geoinformatics · GIS · Earth Observation · Spatial Data</div>
+            <h1>Juanita Sánchez</h1>
+            <p class="lead mx-auto" data-en="Geoinformatics Engineering student at Politecnico di Milano with a background in geology. Passionate about spatial data analysis, remote sensing, and building tools that make geographic information actionable." data-es="Estudiante de Ingeniería Geoinformática en el Politecnico di Milano con formación en geología. Apasionada por el análisis de datos espaciales, la teledetección y la creación de herramientas que hagan la información geográfica accionable.">
+              Geoinformatics Engineering student at Politecnico di Milano with a background in geology.
+              Passionate about spatial data analysis, remote sensing, and building tools that make geographic information actionable.
+            </p>
+            <div class="badge-group mt-3 mb-4">
+              <span class="badge rounded-pill"><i class="bi bi-geo-alt"></i> Milan, Italy</span>
+              <span class="badge rounded-pill"><i class="bi bi-mortarboard"></i> MSc Student</span>
+              <span class="badge rounded-pill"><i class="bi bi-globe-americas"></i> From Colombia</span>
+              <span class="badge rounded-pill">GIS · EO · PostGIS · Python</span>
+            </div>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+              <a href="#projects" class="btn-hero" data-en="View Projects" data-es="Ver Proyectos">View Projects</a>
+              <a href="https://www.linkedin.com/in/juanita-s%C3%A1nchez-b65135201/" target="_blank" rel="noopener" class="btn-hero-outline">LinkedIn <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pt-5 pb-4">
+      <div class="container" data-aos="fade-up">
+        <div class="row gy-4 fact-strip py-2 mx-0">
+          <div class="col-md-3 col-6 fact-item">
+            <div class="num">9+</div>
+            <div class="label" data-en="Geospatial projects<br>completed" data-es="Proyectos geoespaciales<br>completados">Geospatial projects<br>completed</div>
+          </div>
+          <div class="col-md-3 col-6 fact-item">
+            <div class="num">10+</div>
+            <div class="label" data-en="Geospatial & data<br>tools used" data-es="Herramientas geoespaciales<br>y de datos usadas">Geospatial & data<br>tools used</div>
+          </div>
+          <div class="col-md-3 col-6 fact-item">
+            <div class="num">4</div>
+            <div class="label" data-en="Core areas<br>GIS · EO · Data · Development" data-es="Áreas principales<br>GIS · OT · Datos · Desarrollo">Core areas<br>GIS · EO · Data · Development</div>
+          </div>
+          <div class="col-md-3 col-6 fact-item">
+            <div class="num">2025</div>
+            <div class="label" data-en="Started MSc in<br>Geoinformatics at Polimi" data-es="Inicio de MSc en<br>Geoinformática en Polimi">Started MSc in<br>Geoinformatics at Polimi</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-en="About Me" data-es="Sobre Mí">About Me</h2>
+        <p data-en="Where geoscience meets geoinformatics" data-es="Donde la geociencia se encuentra con la geoinformática">Where geoscience meets geoinformatics</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4 align-items-start">
+          <div class="col-lg-7 content" data-aos="fade-up" data-aos-delay="100">
+            <p data-en="I'm a geologist currently pursuing a Master of Science in Geoinformatics Engineering at Politecnico di Milano, within the GEO-ENV track. My academic background combines geology and geoinformatics, with a strong focus on the use of spatial data and digital technologies to understand environmental processes and support informed decision-making." data-es="Soy geóloga, actualmente cursando una Maestría en Ingeniería Geoinformática en el Politecnico di Milano, en el track GEO-ENV. Mi formación combina geología y geoinformática, con un enfoque en el uso de datos espaciales y tecnologías digitales para comprender procesos ambientales y apoyar la toma de decisiones.">
+              I'm a geologist currently pursuing a Master of Science in Geoinformatics Engineering
+              at Politecnico di Milano, within the GEO-ENV track. My academic background combines
+              geology and geoinformatics, with a strong focus on the use of spatial data and digital
+              technologies to understand environmental processes and support informed decision-making.
+            </p>
+            <p data-en="My experience and studies span Geographic Information Systems (GIS), remote sensing, geospatial data analysis, Earth Observation, spatial databases, positioning and location-based services, software engineering for geoinformatics, and machine learning. I have worked with spatial analysis, thematic cartography, watershed and land-use studies, geological and geomorphological interpretation, and landslide susceptibility assessment." data-es="Mi experiencia y estudios abarcan Sistemas de Información Geográfica (SIG), teledetección, análisis de datos geoespaciales, Observación de la Tierra, bases de datos espaciales, posicionamiento y servicios basados en ubicación, ingeniería de software para geoinformática y aprendizaje automático. He trabajado con análisis espacial, cartografía temática, estudios hidrológicos y de uso del suelo, interpretación geológica y geomorfológica, y evaluación de susceptibilidad a deslizamientos.">
+              My experience and studies span Geographic Information Systems (GIS), remote sensing,
+              geospatial data analysis, Earth Observation, spatial databases, positioning and
+              location-based services, software engineering for geoinformatics, and machine learning.
+              I have worked with spatial analysis, thematic cartography, watershed and land-use studies,
+              geological and geomorphological interpretation, and landslide susceptibility assessment.
+            </p>
+            <p data-en="I'm particularly interested in developing geospatial solutions that transform complex spatial data into practical information for environmental monitoring, territorial planning, natural hazard assessment, and resource management. I aim to combine my geological background with advanced geoinformatics methods to address real-world environmental and spatial challenges." data-es="Me interesa especialmente desarrollar soluciones geoespaciales que transformen datos espaciales complejos en información práctica para monitoreo ambiental, planificación territorial, evaluación de riesgos naturales y gestión de recursos. Mi objetivo es combinar mi formación geológica con métodos avanzados de geoinformática para abordar desafíos ambientales y espaciales del mundo real.">
+              I'm particularly interested in developing geospatial solutions that transform complex
+              spatial data into practical information for environmental monitoring, territorial planning,
+              natural hazard assessment, and resource management. I aim to combine my geological
+              background with advanced geoinformatics methods to address real-world environmental
+              and spatial challenges.
+            </p>
+          </div>
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-3">
+              <div class="col-6">
+                <div class="info-card">
+                  <div class="card-icon"><i class="bi bi-globe-americas"></i></div>
+                  <h4 data-en="GIS Analysis" data-es="Análisis SIG">GIS Analysis</h4>
+                  <p data-en="Spatial analysis, geoprocessing, and cartographic visualization with QGIS and ArcGIS Pro." data-es="Análisis espacial, geoprocesamiento y visualización cartográfica con QGIS y ArcGIS Pro.">Spatial analysis, geoprocessing, and cartographic visualization with QGIS and ArcGIS Pro.</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="info-card">
+                  <div class="card-icon"><i class="bi bi-satellite"></i></div>
+                  <h4 data-en="Earth Observation" data-es="Observación de la Tierra">Earth Observation</h4>
+                  <p data-en="Sentinel-2 imagery, NDVI, hyperspectral classification, atmospheric monitoring." data-es="Imágenes Sentinel-2, NDVI, clasificación hiperespectral, monitoreo atmosférico.">Sentinel-2 imagery, NDVI, hyperspectral classification, atmospheric monitoring.</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="info-card">
+                  <div class="card-icon"><i class="bi bi-database"></i></div>
+                  <h4 data-en="Spatial Databases" data-es="Bases de Datos Espaciales">Spatial Databases</h4>
+                  <p data-en="PostgreSQL + PostGIS, spatial queries, GeoServer publication and WFS services." data-es="PostgreSQL + PostGIS, consultas espaciales, publicación GeoServer y servicios WFS.">PostgreSQL + PostGIS, spatial queries, GeoServer publication and WFS services.</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="info-card">
+                  <div class="card-icon"><i class="bi bi-code-slash"></i></div>
+                  <h4 data-en="Development" data-es="Desarrollo">Development</h4>
+                  <p data-en="Python, Flask, Jupyter Notebooks, Leaflet.js for web mapping and data dashboards." data-es="Python, Flask, Jupyter Notebooks, Leaflet.js para mapeo web y dashboards de datos.">Python, Flask, Jupyter Notebooks, Leaflet.js for web mapping and data dashboards.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-en="Education" data-es="Educación">Education</h2>
+        <p data-en="Academic background spanning two engineering disciplines" data-es="Formación académica en dos disciplinas de ingeniería">Academic background spanning two engineering disciplines</p>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+            <div class="timeline-item">
+              <div class="time">September 2025 - Present</div>
+              <h4>MSc Geoinformatics Engineering (LM-35, GEO-ENV)</h4>
+              <p data-en="Politecnico di Milano, Milan, Italy. Coursework includes Geographic Information Systems (GIS), Geospatial Data Analysis, Earth Observation, Positioning and Location-Based Services, Software Engineering for Geoinformatics, Databases, Computer Security, Computer Architecture and operating systems, and Space Economy." data-es="Politecnico di Milano, Milán, Italia. Cursos: Sistemas de Información Geográfica (SIG), Análisis de Datos Geoespaciales, Observación de la Tierra, Posicionamiento y Servicios Basados en Ubicación, Ingeniería de Software para Geoinformática, Bases de Datos, Seguridad Informática, Arquitectura de Computadores y SO, y Economía del Espacio.">
+                Politecnico di Milano, Milan, Italy. Coursework includes Geographic Information Systems (GIS), Geospatial Data Analysis, Earth Observation, Positioning and Location-Based Services,
+                Software Engineering for Geoinformatics, Databases, Computer Security, Computer Architecture and operating systems, and Space Economy.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <h4 data-en="BSc Geology / Earth Sciences" data-es="Pregrado en Geología / Ciencias de la Tierra">BSc Geology / Earth sciences</h4>
+              <p data-en="Undergraduate studies in Colombia focused on geology, with a strong emphasis on geospatial technologies, spatial data analysis, geological mapping, and the application of digital tools to Earth science problems." data-es="Estudios de pregrado en Colombia enfocados en geología, con énfasis en tecnologías geoespaciales, análisis de datos espaciales, cartografía geológica y aplicación de herramientas digitales a problemas de ciencias de la Tierra.">
+               Undergraduate studies in Colombia focused on geology, with a strong emphasis on geospatial technologies, spatial data analysis, geological mapping,
+               and the application of digital tools to Earth science problems.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-en="Professional Experience" data-es="Experiencia Profesional">Professional Experience</h2>
+        <p data-en="GIS, remote sensing, and geospatial consulting across multiple sectors" data-es="SIG, teledetección y consultoría geoespacial en múltiples sectores">GIS, remote sensing, and geospatial consulting across multiple sectors</p>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="timeline-item">
+              <div class="time">Apr 2026 · Seasonal</div>
+              <h4 data-en="Photogrammetry and Cartography Service" data-es="Servicio de Fotogrametría y Cartografía">Photogrammetry and Cartography Service</h4>
+              <p data-en="Aeroestudios SAS · Remote — Updating and reprocessing of 13 images in a previously built mosaic dataset." data-es="Aeroestudios SAS · Remoto — Actualización y reprocesamiento de 13 imágenes en un mosaico previamente construido.">Aeroestudios SAS · Remote<br>Updating and reprocessing of 13 images in a previously built mosaic dataset.</p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="time">Dec 2025 - Jan 2026 · Freelance</div>
+              <h4 data-en="GIS Consultant" data-es="Consultora SIG">GIS Consultant</h4>
+              <p data-en="Aeroestudios SAS · Remote — Built and optimized orthophoto mosaic datasets in ArcGIS Pro, integrating 96 orthophotos into urban and rural mosaics. Responsible for footprint generation, seamline construction, overview management, and mosaic quality control. Published imagery services and produced technical documentation." data-es="Aeroestudios SAS · Remoto — Construcción y optimización de mosaicos de ortofotos en ArcGIS Pro, integrando 96 ortofotos en mosaicos urbanos y rurales. Responsable de generación de footprints, construcción de seamlines, gestión de overviews y control de calidad. Publicación de servicios de imágenes y documentación técnica.">Aeroestudios SAS · Remote<br>Built and optimized orthophoto mosaic datasets in ArcGIS Pro, integrating 96 orthophotos into urban and rural mosaics. Responsible for footprint generation, seamline construction, overview management, and mosaic quality control. Published imagery services and produced technical documentation.</p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="time">Oct 2024 - Sep 2025 · Contract</div>
+              <h4 data-en="GIS Geologist" data-es="Geóloga SIG">GIS Geologist</h4>
+              <p data-en="Gobernación de Antioquia · Medellín, Colombia — Contributed to territorial planning by creating spatial analysis models and maps integrating environmental, social, and economic data to support sustainable land-use decisions and resource allocation." data-es="Gobernación de Antioquia · Medellín, Colombia — Contribución a la planificación territorial creando modelos de análisis espacial y mapas que integran datos ambientales, sociales y económicos para decisiones de uso del suelo y asignación de recursos.">Gobernación de Antioquia · Medellín, Colombia<br>Contributed to territorial planning by creating spatial analysis models and maps integrating environmental, social, and economic data to support sustainable land-use decisions and resource allocation.</p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="time">Oct 2024 - Dec 2024 · Contract</div>
+              <h4 data-en="GIS Contractor" data-es="Contratista SIG">GIS Contractor</h4>
+              <p data-en="Isabel Restrepo / Mineros S.A. — Database management and spatial data administration using SQL and QGIS for the mining sector. Maintained and queried geospatial databases to support operational planning and reporting." data-es="Isabel Restrepo / Mineros S.A. — Gestión de bases de datos y administración de datos espaciales usando SQL y QGIS para el sector minero. Mantenimiento y consulta de bases de datos geoespaciales para planificación operativa y reportes.">Isabel Restrepo / Mineros S.A.<br>Database management and spatial data administration using SQL and QGIS for the mining sector. Maintained and queried geospatial databases to support operational planning and reporting.</p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="time">Mar 2023 - Aug 2024 · Full-time</div>
+              <h4 data-en="R&amp;D Analyst / Specialist Engineer" data-es="Analista I+D / Ingeniera Especialista">R&amp;D Analyst / Specialist Engineer</h4>
+              <p data-en="Procalculo Prosis S.A. · Medellín, Colombia — Transformed spatial data into actionable information using GIS, AI, and statistical methods for mining, water, energy, and risk management. Developed geospatial predictive models for renewable energy prospecting and vulnerable area modeling using ArcGIS, QGIS, ENVI, SAM classification, and band mathematics." data-es="Procalculo Prosis S.A. · Medellín, Colombia — Transformación de datos espaciales en información accionable usando SIG, IA y métodos estadísticos para minería, agua, energía y gestión de riesgos. Desarrollo de modelos predictivos geoespaciales para prospección de energías renovables y modelamiento de áreas vulnerables usando ArcGIS, QGIS, ENVI, clasificación SAM y matemática de bandas.">Procalculo Prosis S.A. · Medellín, Colombia<br>Transformed spatial data into actionable information using GIS, AI, and statistical methods for mining, water, energy, and risk management. Developed geospatial predictive models for renewable energy prospecting and vulnerable area modeling using ArcGIS, QGIS, ENVI, SAM classification, and band mathematics.</p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="time">Jul 2023 - Aug 2023 · Internship</div>
+              <h4>Summer Research Intern</h4>
+              <p data-en="Institute for Planetary Materials · Misasa, Japan — Analyzed extraterrestrial materials using ICP-MS, SEM, EA-IRMS, Raman spectroscopy, and FTIR on carbonaceous chondrite meteorite samples. Interpreted mineral-organic matter data to understand asteroid evolution and solar system genesis." data-es="Institute for Planetary Materials · Misasa, Japón — Análisis de materiales extraterrestres usando ICP-MS, SEM, EA-IRMS, espectroscopía Raman y FTIR en muestras de meteoritos de condritas carbonáceas. Interpretación de datos mineral-materia orgánica para comprender la evolución de asteroides y la génesis del sistema solar.">Institute for Planetary Materials · Misasa, Japan<br>Analyzed extraterrestrial materials using ICP-MS, SEM, EA-IRMS, Raman spectroscopy, and FTIR on carbonaceous chondrite meteorite samples. Interpreted mineral-organic matter data to understand asteroid evolution and solar system genesis.</p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="time">Feb 2022 - Jul 2022 · Internship</div>
+              <h4 data-en="Geologist" data-es="Geóloga">Geologist</h4>
+              <p data-en="Gobernación de Antioquia · Medellín, Colombia — Supported cadastral updates with geographic layer editing, cartographic product verification, GDB validation, and orthophoto processing. Built the orthophotomosaic of Antioquia in ArcGIS Pro." data-es="Gobernación de Antioquia · Medellín, Colombia — Soporte en actualizaciones catastrales con edición de capas geográficas, verificación de productos cartográficos, validación de GDB y procesamiento de ortofotos. Construcción del ortofotomosaico de Antioquia en ArcGIS Pro.">Gobernación de Antioquia · Medellín, Colombia<br>Supported cadastral updates with geographic layer editing, cartographic product verification, GDB validation, and orthophoto processing. Built the orthophotomosaic of Antioquia in ArcGIS Pro.</p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="time">Mar 2021 - May 2021 · Part-time</div>
+              <h4 data-en="Research Coordinator" data-es="Coordinadora de Investigación">Research Coordinator</h4>
+              <p data-en="Universidad EAFIT · Medellín, Colombia — Coordinated a research project using Google Earth Engine and GIS for hydrological analysis and multi-temporal land use change detection." data-es="Universidad EAFIT · Medellín, Colombia — Coordinación de un proyecto de investigación usando Google Earth Engine y SIG para análisis hidrológico y detección de cambio de uso del suelo multitemporal.">Universidad EAFIT · Medellín, Colombia<br>Coordinated a research project using Google Earth Engine and GIS for hydrological analysis and multi-temporal land use change detection.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container section-title text-center" data-aos="fade-up">
+        <h2 data-en="Projects" data-es="Proyectos">Projects</h2>
+        <p data-en="Selected academic and applied projects in geoinformatics, spatial analysis, and software engineering" data-es="Proyectos académicos y aplicados seleccionados en geoinformática, análisis espacial e ingeniería de software">Selected academic and applied projects in geoinformatics, spatial analysis, and software engineering</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-card">
+              <div class="project-header">
+                <span class="project-tag">Space Economy - SEEOB</span>
+                <h3 data-en="&quot;Where to Live?&quot; — Transport Poverty Screening Tool" data-es="&quot;¿Dónde Vivir?&quot; — Herramienta de Evaluación de Pobreza de Transporte">"Where to Live?" - Transport Poverty Screening Tool</h3>
+              </div>
+              <div class="project-body">
+                <img src="assets/img/where-to-live.png" alt="PTOL + OMI livability bivariate map of Greater Milan" style="width:100%;border-radius:10px;margin-bottom:1rem;border:1px solid rgba(45,32,22,.08);">
+                <p data-en="Group project. Developed a Public Transport Opportunity Level (PTOL) index for Milan using OpenStreetMap data, NetworkX/Pandana graph analysis, and H3 hexagonal grids. Validated against TfL PTAL with strong correlation (r = 0.83). Designed a freemium marketplace concept combining transport quality, rental data, and apartment listings. Built an interactive HTML prototype with Leaflet.js." data-es="Proyecto en grupo. Desarrollo de un índice PTOL (Public Transport Opportunity Level) para Milán usando datos OpenStreetMap, análisis de grafos NetworkX/Pandana y grillas hexagonales H3. Validado contra TfL PTAL con alta correlación (r = 0.83). Diseño de un concepto de marketplace freemium combinando calidad de transporte, datos de alquiler y listados de apartamentos. Prototipo interactivo en HTML con Leaflet.js.">
+                  Group project. Developed a Public Transport Opportunity Level (PTOL) index for Milan using OpenStreetMap data,
+                  NetworkX/Pandana graph analysis, and H3 hexagonal grids. Validated against TfL PTAL with strong
+                  correlation (r = 0.83). Designed a freemium marketplace concept combining transport quality, rental
+                  data, and apartment listings. Built an interactive HTML prototype with Leaflet.js.
+                </p>
+                <a href="https://polimi-eo-transport.netlify.app/" target="_blank" rel="noopener" style="display:inline-block;margin-top:.5rem;font-size:.85rem;font-weight:600;color:var(--accent-color,#9E7C5A);"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+                <div class="tech-tags">
+                  <span class="tech-tag">Python</span><span class="tech-tag">Pandana</span><span class="tech-tag">H3</span><span class="tech-tag">Leaflet.js</span><span class="tech-tag">Sentinel-2</span><span class="tech-tag">OSM</span><span class="tech-tag">GTFS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="project-card">
+              <div class="project-header">
+                <span class="project-tag">SE4GEO - Software Engineering</span>
+                <h3>Parasole — Heat Monitoring Dashboard</h3>
+              </div>
+              <div class="project-body">
+                <img src="assets/img/parasole-dashboard.png" alt="Parasole Dashboard" style="width:100%;border-radius:10px;margin-bottom:1rem;border:1px solid rgba(45,32,22,.08);">
+                <p data-en="Group software engineering project for Milan and Mexico City. Built a client-server heat monitoring system with a station heatmap, temperature/humidity time series, daily precipitation charts, heat stress alerts, and summary indicators. Uses Meteostat API data stored in PostgreSQL/PostGIS, exposed via Flask REST API, and visualized through a Jupyter Notebook dashboard." data-es="Proyecto grupal de ingeniería de software para Milán y Ciudad de México. Sistema cliente-servidor de monitoreo de calor con heatmap de estaciones, series temporales de temperatura/humedad, gráficos de precipitación diaria, alertas de estrés térmico e indicadores resumen. Datos de Meteostat API en PostgreSQL/PostGIS, expuestos vía Flask REST API y visualizados en un dashboard Jupyter Notebook.">
+                  Group software engineering project for Milan and Mexico City. Built a client-server heat
+                  monitoring system with a station heatmap, temperature/humidity time series, daily precipitation
+                  charts, heat stress alerts, and summary indicators. Uses Meteostat API data stored in
+                  PostgreSQL/PostGIS, exposed via Flask REST API, and visualized through a Jupyter Notebook dashboard.
+                </p>
+                <div class="tech-tags">
+                  <span class="tech-tag">Flask</span><span class="tech-tag">PostGIS</span><span class="tech-tag">Python</span><span class="tech-tag">Leaflet</span><span class="tech-tag">Jupyter</span><span class="tech-tag">REST API</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-card">
+              <div class="project-header">
+                <span class="project-tag">GIS Laboratory</span>
+                <h3 data-en="Mapping Air Quality in France" data-es="Mapeo de Calidad del Aire en Francia">Mapping Air Quality in France</h3>
+              </div>
+              <div class="project-body">
+                <img src="assets/img/france-webgis.png" alt="WebGIS CAMS PM10 France" style="width:100%;border-radius:10px;margin-bottom:1rem;border:1px solid rgba(45,32,22,.08);">
+                <p data-en="Analyzed NO₂, PM2.5, and PM10 concentrations across France (2021–2023) using Copernicus CAMS reanalysis data. Produced AMAC change maps, bivariate pollution–population maps, zonal statistics, and land cover change analysis (Stability Rate 94.75%). Built an interactive WebGIS with OpenLayers and a multi-page project website. Personally responsible for PM10 analysis." data-es="Análisis de concentraciones de NO₂, PM2.5 y PM10 en Francia (2021–2023) usando datos de reanálisis Copernicus CAMS. Mapas de cambio AMAC, mapas bivariados contaminación–población, estadísticas zonales y análisis de cambio de cobertura del suelo (tasa de estabilidad 94.75%). WebGIS interactivo con OpenLayers y sitio web del proyecto. Responsable del análisis de PM10.">
+                  Analyzed NO₂, PM2.5, and PM10 concentrations across France (2021–2023) using Copernicus CAMS
+                  reanalysis data. Produced AMAC change maps, bivariate pollution–population maps, zonal statistics,
+                  and land cover change analysis (Stability Rate 94.75%). Built an interactive WebGIS with OpenLayers
+                  and a multi-page project website. Personally responsible for PM10 analysis.
+                </p>
+                <a href="https://tekgeo.github.io/GIS_LAB_G3_25-26/index.html" target="_blank" rel="noopener" style="display:inline-block;margin-top:.5rem;font-size:.85rem;font-weight:600;color:var(--accent-color,#9E7C5A);"><i class="bi bi-box-arrow-up-right"></i> Project Website</a>
+                <div class="tech-tags">
+                  <span class="tech-tag">QGIS</span><span class="tech-tag">CAMS</span><span class="tech-tag">CORINE</span><span class="tech-tag">OpenLayers</span><span class="tech-tag">Raster Algebra</span><span class="tech-tag">HTML/CSS/JS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="project-card">
+              <div class="project-header">
+                <span class="project-tag" data-en="Earth Observation" data-es="Observación de la Tierra">Earth Observation</span>
+                <h3 data-en="Random Forest Land Cover Classification — Pavia" data-es="Clasificación de Cobertura del Suelo con Random Forest — Pavía">Random Forest Land Cover Classification - Pavia</h3>
+              </div>
+              <div class="project-body">
+                <img src="assets/img/ndvi-milan.png" alt="Random Forest classification Pavia" style="width:100%;border-radius:10px;margin-bottom:1rem;border:1px solid rgba(45,32,22,.08);">
+                <p data-en="Supervised land cover classification of the Pavia area (Italy) using a Random Forest model applied to multispectral remote sensing imagery. Trained and validated the classifier with ground truth data, assessed accuracy through confusion matrix, overall accuracy, and kappa coefficient. Compared class separability and analyzed feature importance across spectral bands." data-es="Clasificación supervisada de cobertura del suelo del área de Pavía (Italia) usando un modelo Random Forest aplicado a imágenes de teledetección multiespectral. Entrenamiento y validación del clasificador con datos de verdad terreno, evaluación de precisión mediante matriz de confusión, precisión global y coeficiente kappa. Comparación de separabilidad de clases y análisis de importancia de características por banda espectral.">
+                  Supervised land cover classification of the Pavia area (Italy) using a Random Forest model
+                  applied to multispectral remote sensing imagery. Trained and validated the classifier with
+                  ground truth data, assessed accuracy through confusion matrix, overall accuracy, and kappa
+                  coefficient. Compared class separability and analyzed feature importance across spectral bands.
+                </p>
+                <div class="tech-tags">
+                  <span class="tech-tag">Random Forest</span><span class="tech-tag">Python</span><span class="tech-tag">scikit-learn</span><span class="tech-tag">Remote Sensing</span><span class="tech-tag">Classification</span><span class="tech-tag">Accuracy Assessment</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="project-card">
+              <div class="project-header">
+                <span class="project-tag" data-en="Earth Observation" data-es="Observación de la Tierra">Earth Observation</span>
+                <h3 data-en="NDVI Vegetation Cover Change — Milan" data-es="Cambio de Cobertura Vegetal NDVI — Milán">NDVI Vegetation Cover Change - Milan</h3>
+              </div>
+              <div class="project-body">
+                <img src="assets/img/pavia-random-forest.png" alt="NDVI land cover Milan" style="width:100%;border-radius:10px;margin-bottom:1rem;border:1px solid rgba(45,32,22,.08);">
+                <p data-en="Sentinel-2 L2A (10 m resolution) multitemporal analysis of vegetation cover change in Milan. Applied SCL cloud masking, fixed-threshold NDVI classification, and Point Sampling Tool for validation. Quantified green space dynamics across the metropolitan area using free Copernicus imagery." data-es="Análisis multitemporal de cambio de cobertura vegetal en Milán usando Sentinel-2 L2A (resolución 10 m). Aplicación de enmascaramiento de nubes SCL, clasificación NDVI por umbral fijo y herramienta de muestreo puntual para validación. Cuantificación de la dinámica de espacios verdes del área metropolitana usando imágenes Copernicus.">
+                  Sentinel-2 L2A (10 m resolution) multitemporal analysis of vegetation cover change in Milan.
+                  Applied SCL cloud masking, fixed-threshold NDVI classification, and Point Sampling Tool for
+                  validation. Quantified green space dynamics across the metropolitan area using free Copernicus imagery.
+                </p>
+                <div class="tech-tags">
+                  <span class="tech-tag">Sentinel-2</span><span class="tech-tag">NDVI</span><span class="tech-tag">QGIS</span><span class="tech-tag">Remote Sensing</span><span class="tech-tag">Cloud Masking</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="350">
+            <div class="project-card">
+              <div class="project-header">
+                <span class="project-tag" data-en="Remote Sensing / Mining" data-es="Teledetección / Minería">Remote Sensing / Mining</span>
+                <h3 data-en="Mineralogical Classification — SAM &amp; Band Math" data-es="Clasificación Mineralógica — SAM y Matemática de Bandas">Mineralogical Classification — SAM &amp; Band Math</h3>
+              </div>
+              <div class="project-body">
+                <div style="display:flex;gap:.5rem;margin-bottom:1rem;">
+                  <img src="assets/img/hurtado-band-ratios.png" alt="ASTER band ratios CCBS alteration zones" style="width:50%;border-radius:10px;border:1px solid rgba(45,32,22,.08);object-fit:cover;">
+                  <img src="assets/img/hurtado-sam.png" alt="SAM classification mineral groups" style="width:50%;border-radius:10px;border:1px solid rgba(45,32,22,.08);object-fit:cover;">
+                </div>
+                <p data-en="Mineral alteration mapping for the Hurtado mining project (Río Hurtado, Coquimbo, Chile) using ASTER, Landsat, and PRISMA satellite imagery. Applied Spectral Angle Mapper (SAM) classification to identify mineral groups (chrysocolla, muscovite, pyrite) and ASTER band ratio composites (CCBS 7/6, 5/6, 9/8) to delineate phyllic, argillic, and propylitic hydrothermal alteration zones." data-es="Mapeo de alteración mineral para el proyecto minero Hurtado (Río Hurtado, Coquimbo, Chile) usando imágenes ASTER, Landsat y PRISMA. Clasificación SAM para identificar grupos minerales (crisocola, moscovita, pirita) y cocientes de bandas ASTER (CCBS 7/6, 5/6, 9/8) para delimitar zonas de alteración hidrotermal fílica, argílica y propilítica.">
+                  Mineral alteration mapping for the Hurtado mining project (Río Hurtado, Coquimbo, Chile) using ASTER, Landsat, and PRISMA satellite imagery. Applied Spectral Angle Mapper (SAM) classification to identify mineral groups (chrysocolla, muscovite, pyrite) and ASTER band ratio composites (CCBS 7/6, 5/6, 9/8) to delineate phyllic, argillic, and propylitic hydrothermal alteration zones.
+                </p>
+                <div class="tech-tags">
+                  <span class="tech-tag">ASTER</span><span class="tech-tag">Landsat</span><span class="tech-tag">PRISMA</span><span class="tech-tag">SAM</span><span class="tech-tag">Band Ratios</span><span class="tech-tag">ENVI</span><span class="tech-tag">ArcGIS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="project-card">
+              <div class="project-header">
+                <span class="project-tag">Positioning & LBS</span>
+                <h3 data-en="Indoor Positioning via Wi-Fi Fingerprinting" data-es="Posicionamiento Indoor vía Wi-Fi Fingerprinting">Indoor Positioning via Wi-Fi Fingerprinting</h3>
+              </div>
+              <div class="project-body">
+                <img src="assets/img/wifi-fingerprinting.png" alt="Wi-Fi fingerprinting user trajectory" style="width:100%;border-radius:10px;margin-bottom:1rem;border:1px solid rgba(45,32,22,.08);">
+                <p data-en="Implemented a Wi-Fi fingerprinting system for indoor positioning using RSSI measurements from 10 beacons and 36 calibration points. Estimated user trajectory through a room by matching signal patterns to a radio map. Also implemented Dijkstra's shortest path algorithm for optimal flight routing through a European city network." data-es="Implementación de un sistema de posicionamiento indoor por Wi-Fi fingerprinting usando mediciones RSSI de 10 balizas y 36 puntos de calibración. Estimación de trayectoria del usuario en una sala mediante coincidencia de patrones de señal con un radio map. Implementación del algoritmo de Dijkstra para rutas óptimas de vuelo en una red de ciudades europeas.">
+                  Implemented a Wi-Fi fingerprinting system for indoor positioning using RSSI measurements
+                  from 10 beacons and 36 calibration points. Estimated user trajectory through a room by matching
+                  signal patterns to a radio map. Also implemented Dijkstra's shortest path algorithm for
+                  optimal flight routing through a European city network.
+                </p>
+                <div class="tech-tags">
+                  <span class="tech-tag">MATLAB</span><span class="tech-tag">Python</span><span class="tech-tag">RSSI</span><span class="tech-tag">Fingerprinting</span><span class="tech-tag">Dijkstra</span><span class="tech-tag">Graph Theory</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="450">
+            <div class="project-card">
+              <div class="project-header">
+                <span class="project-tag">Positioning & LBS</span>
+                <h3 data-en="GPS Orbit Computation, Static PPP &amp; Kalman Filtering" data-es="Cálculo de Órbitas GPS, PPP Estático y Filtro de Kalman">GPS Orbit Computation &amp; Static PPP</h3>
+              </div>
+              <div class="project-body">
+                <div style="display:flex;gap:.5rem;margin-bottom:1rem;">
+                  <img src="assets/img/satellite-trajectory.png" alt="Satellite daily ground track" style="width:50%;border-radius:10px;border:1px solid rgba(45,32,22,.08);object-fit:cover;">
+                  <img src="assets/img/kalman-filter.png" alt="Kalman filter noisy vs filtered trajectory" style="width:50%;border-radius:10px;border:1px solid rgba(45,32,22,.08);object-fit:cover;">
+                </div>
+                <p data-en="Geodetic computation labs covering coordinate frame transformations with covariance propagation (ORS → ITRF), Keplerian orbital parameters, satellite ground track computation, and clock offset modeling. Implemented a Kalman filter for trajectory smoothing from noisy observations. Static daily Precise Point Positioning of Milan's MIL3 GNSS station using CSRS-PPP." data-es="Laboratorios de cálculo geodésico: transformaciones de marcos de coordenadas con propagación de covarianza (ORS → ITRF), parámetros orbitales keplerianos, cálculo de trazas terrestres de satélite y modelado de offset de reloj. Implementación de filtro de Kalman para suavizado de trayectorias a partir de observaciones ruidosas. PPP estático diario de la estación GNSS MIL3 de Milán usando CSRS-PPP.">
+                  Geodetic computation labs covering coordinate frame transformations with covariance propagation
+                  (ORS → ITRF), Keplerian orbital parameters, satellite ground track computation, and clock offset
+                  modeling. Implemented a Kalman filter for trajectory smoothing from noisy observations. Static
+                  daily Precise Point Positioning of Milan's MIL3 GNSS station using CSRS-PPP.
+                </p>
+                <div class="tech-tags">
+                  <span class="tech-tag">GNSS</span><span class="tech-tag">PPP</span><span class="tech-tag">Kalman Filter</span><span class="tech-tag">MATLAB</span><span class="tech-tag">ITRF</span><span class="tech-tag">Geodesy</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="project-card">
+              <div class="project-header">
+                <span class="project-tag" data-en="Spatial Databases" data-es="Bases de Datos Espaciales">Spatial Databases</span>
+                <h3 data-en="PostGIS Spatial Queries &amp; GeoServer Publication" data-es="Consultas Espaciales PostGIS y Publicación GeoServer">PostGIS Spatial Queries &amp; GeoServer Publication</h3>
+              </div>
+              <div class="project-body">
+                <p data-en="Built and queried spatial databases using PostgreSQL/PostGIS with Milan-area datasets. Completed spatial queries for proximity analysis, overlay operations, and feature extraction. Published layers via GeoServer as WFS services and visualized results in QGIS." data-es="Construcción y consulta de bases de datos espaciales usando PostgreSQL/PostGIS con datasets del área de Milán. Consultas espaciales para análisis de proximidad, operaciones de superposición y extracción de características. Publicación de capas vía GeoServer como servicios WFS y visualización de resultados en QGIS.">
+                  Built and queried spatial databases using PostgreSQL/PostGIS with Milan-area datasets.
+                  Completed spatial queries for proximity analysis, overlay operations, and feature extraction.
+                  Published layers via GeoServer as WFS services and visualized results in QGIS.
+                </p>
+                <div class="tech-tags">
+                  <span class="tech-tag">PostgreSQL</span><span class="tech-tag">PostGIS</span><span class="tech-tag">SQL</span><span class="tech-tag">GeoServer</span><span class="tech-tag">WFS</span><span class="tech-tag">QGIS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section light-background">
+      <div class="container section-title text-center" data-aos="fade-up">
+        <h2 data-en="Technical Skills" data-es="Habilidades Técnicas">Technical Skills</h2>
+        <p data-en="Tools and technologies I work with across GIS, development, and geoscience" data-es="Herramientas y tecnologías que utilizo en SIG, desarrollo y geociencias">Tools and technologies I work with across GIS, development, and geoscience</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4 justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-5 col-md-6">
+            <div class="skill-group">
+              <h4><i class="bi bi-map"></i> GIS & Remote Sensing</h4>
+              <ul class="skill-list"><li>QGIS</li><li>ArcGIS Pro</li><li>GeoServer</li><li>OpenLayers</li><li>Leaflet.js</li><li>PostGIS</li><li>Sentinel-2</li><li>Copernicus CAMS</li><li>CORINE Land Cover</li><li>NDVI Analysis</li><li>Random Forest Classification</li><li>SAM Classification</li><li>ENVI</li></ul>
+            </div>
+            <div class="skill-group">
+              <h4><i class="bi bi-code-square"></i> <span data-en="Programming & Development" data-es="Programación y Desarrollo">Programming & Development</span></h4>
+              <ul class="skill-list"><li>Python</li><li>Pandas</li><li>scikit-learn</li><li>Flask</li><li>Jupyter Notebooks</li><li>SQL / PostgreSQL</li><li>HTML / CSS / JavaScript</li><li>MATLAB</li><li>Git / GitHub</li></ul>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <div class="skill-group">
+              <h4><i class="bi bi-compass"></i> <span data-en="Geodesy & Positioning" data-es="Geodesia y Posicionamiento">Geodesy & Positioning</span></h4>
+              <ul class="skill-list"><li>GNSS</li><li>Precise Point Positioning</li><li>ITRF Transformations</li><li>Coordinate Reference Systems</li><li>Wi-Fi Fingerprinting</li><li>Kalman Filtering</li><li>CSRS-PPP</li></ul>
+            </div>
+            <div class="skill-group">
+              <h4><i class="bi bi-graph-up"></i> <span data-en="Data & Analysis" data-es="Datos y Análisis">Data & Analysis</span></h4>
+              <ul class="skill-list"><li>Raster Algebra</li><li>Zonal Statistics</li><li>Network Analysis (Pandana)</li><li>H3 Hexagonal Grids</li><li>Bivariate Mapping</li><li>GTFS / NeTEx</li><li>Band Ratios</li></ul>
+            </div>
+            <div class="skill-group">
+              <h4><i class="bi bi-translate"></i> <span data-en="Languages" data-es="Idiomas">Languages</span></h4>
+              <ul class="skill-list">
+                <li data-en="Spanish (native)" data-es="Español (nativo)">Spanish (native)</li>
+                <li data-en="English (proficient)" data-es="Inglés (competente)">English (proficient)</li>
+                <li data-en="Italian (Intermediate level)" data-es="Italiano (nivel intermedio)">Italian (Intermediate level)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="call-to-action section accent-background">
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-8 text-center">
+            <h3 data-en="Let's Connect" data-es="Conectemos">Let's Connect</h3>
+            <p data-en="I'm open to discussing geospatial projects, research collaborations, or internship opportunities in GIS, Earth Observation, and spatial data engineering." data-es="Estoy abierta a discutir proyectos geoespaciales, colaboraciones de investigación u oportunidades de prácticas en SIG, Observación de la Tierra e ingeniería de datos espaciales.">
+              I'm open to discussing geospatial projects, research collaborations, or internship opportunities
+              in GIS, Earth Observation, and spatial data engineering.
+            </p>
+            <a class="cta-btn" href="https://www.linkedin.com/in/juanita-s%C3%A1nchez-b65135201/" target="_blank" rel="noopener">
+              <span data-en="Connect on LinkedIn" data-es="Conectar en LinkedIn">Connect on LinkedIn</span> <i class="bi bi-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" style="padding:2rem 0;text-align:center;font-size:.82rem;color:var(--text-light,#8C7E6F);border-top:1px solid rgba(45,32,22,.08);">
+    <div class="container">
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/juanita-s%C3%A1nchez-b65135201/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/tekgeo" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+      </div>
+      <p>&copy; 2026 Juanita Sánchez. Portfolio built with Bootstrap.</p>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script>
+  (function(){
+    var currentLang = "en";
+    var btn = document.getElementById("langToggle");
+    function switchLang(lang){
+      currentLang = lang;
+      document.documentElement.lang = lang;
+      btn.textContent = lang === "en" ? "ES" : "EN";
+      document.querySelectorAll("[data-en][data-es]").forEach(function(el){
+        var val = el.getAttribute("data-" + lang);
+        if(val) el.innerHTML = val;
+      });
+    }
+    if(btn){
+      btn.addEventListener("click",function(){
+        switchLang(currentLang === "en" ? "es" : "en");
+      });
+    }
+  })();
+  </script>
+
+</body>
+</html>
