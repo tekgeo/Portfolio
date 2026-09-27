@@ -1,7 +1,4 @@
-/**
- * Juanita Sánchez — Portfolio
- * Based on OnePage by BootstrapMade.com (heavily customized)
- */
+
 (function () {
   "use strict";
 
