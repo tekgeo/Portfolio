@@ -6,11 +6,7 @@
 * License: https://bootstrapmade.com/license/
 */
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
-/* Fonts */
+
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway",  sans-serif;
@@ -66,9 +62,7 @@
   scroll-behavior: smooth;
 }
 
-/*--------------------------------------------------------------
-# General Styling & Shared Classes
---------------------------------------------------------------*/
+
 body {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -96,8 +90,7 @@ h6 {
   font-family: var(--heading-font);
 }
 
-/* Pulsating Play Button
-------------------------------*/
+
 .pulsating-play-btn {
   width: 94px;
   height: 94px;
@@ -175,8 +168,6 @@ h6 {
   }
 }
 
-/* PHP Email Form Messages
-------------------------------*/
 .php-email-form .error-message {
   display: none;
   background: #df1529;
@@ -227,9 +218,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Global Header
---------------------------------------------------------------*/
+
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -293,9 +282,7 @@ h6 {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
+
 /* Navmenu - Desktop */
 @media (min-width: 1200px) {
   .navmenu {
@@ -724,18 +711,14 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
+
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
 
-/*--------------------------------------------------------------
-# Global Page Titles & Breadcrumbs
---------------------------------------------------------------*/
+
 .page-title {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -776,9 +759,7 @@ h6 {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-/*--------------------------------------------------------------
-# Global Sections
---------------------------------------------------------------*/
+
 section,
 .section {
   color: var(--default-color);
@@ -796,9 +777,7 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Global Section Titles
---------------------------------------------------------------*/
+
 .section-title {
   text-align: center;
   padding-bottom: 60px;
@@ -816,9 +795,7 @@ section,
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+
 .hero {
   width: 100%;
   min-height: calc(100vh - 100px);
@@ -945,9 +922,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
 .about ul {
   list-style: none;
   padding: 0;
@@ -995,9 +969,7 @@ section,
   transform: translate(5px, 0);
 }
 
-/*--------------------------------------------------------------
-# Stats Section
---------------------------------------------------------------*/
+
 .stats {
   padding: 30px 0;
 }
@@ -1023,9 +995,7 @@ section,
   font-weight: 600;
 }
 
-/*--------------------------------------------------------------
-# About Alt Section
---------------------------------------------------------------*/
+
 .about-alt .content h3 {
   font-size: 1.75rem;
   font-weight: 700;
@@ -1058,9 +1028,7 @@ section,
   top: calc(50% - 47px);
 }
 
-/*--------------------------------------------------------------
-# Clients Section
---------------------------------------------------------------*/
+
 .clients {
   padding: 20px 0;
 }
@@ -1092,9 +1060,7 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Testimonials Section
---------------------------------------------------------------*/
+
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
