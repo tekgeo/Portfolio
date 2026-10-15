@@ -1,4 +1,4 @@
-# Juanita Sánchez — Portfolio
+# Juanita Sánchez - Portfolio
 
 Personal portfolio website showcasing geoinformatics projects, skills, and academic background.
 
